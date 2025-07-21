@@ -1,0 +1,13 @@
+prefix=/Users/saianand/Documents/customer-Segmentation-Clustering-ML/env
+exec_prefix=/Users/saianand/Documents/customer-Segmentation-Clustering-ML/env
+libdir=/Users/saianand/Documents/customer-Segmentation-Clustering-ML/env/lib
+sharedlibdir=/Users/saianand/Documents/customer-Segmentation-Clustering-ML/env/lib
+includedir=/Users/saianand/Documents/customer-Segmentation-Clustering-ML/env/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
